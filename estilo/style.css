@@ -22,29 +22,31 @@
 
 body{
     background-color: #0E0E0E;
+    display: grid;
+    justify-content: center;
 }
 
 main{
     background-color: var(--Grey900);
     height: 100vh;
-    width: 65%;
-    margin: auto;
-    /*display: grid;*/
+    display: grid;
+    grid-template-columns: 350px;
+    align-content: center;
+    justify-items: center;
 }
 
 section{
     background-color: var(--Grey800);
-    border-radius: 8px;
-    height: 700px;
-    /*display: grid;
-    justify-content: center;
-    align-items: center;*/
+    border-radius: 10px;
+    height: 600px;
+    display: grid;
+    align-content: center;
 }
 
 picture > img{
     border-radius: 100%;
     width: 40%;
-    margin: 40px;
+    margin: 30px;
 }
 
 nav > a{
